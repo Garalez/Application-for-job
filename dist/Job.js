@@ -25,10 +25,10 @@ class Person {
         this.name = name;
     }
     setJob(job) {
-        const arrayOfValues = Object.values(job);
+        const arrayOfValuesFromClass = Object.values(job);
         const objFromClass = {
-            role: arrayOfValues[0],
-            salary: arrayOfValues[1],
+            role: arrayOfValuesFromClass[0],
+            salary: arrayOfValuesFromClass[1],
         };
         this.Job = objFromClass;
     }

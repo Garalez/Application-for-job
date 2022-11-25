@@ -33,10 +33,10 @@ class Person {
   }
 
   setJob(job: Job) {
-    const arrayOfValues = Object.values(job);
+    const arrayOfValuesFromClass = Object.values(job);
     const objFromClass = {
-      role: arrayOfValues[0],
-      salary: arrayOfValues[1],
+      role: arrayOfValuesFromClass[0],
+      salary: arrayOfValuesFromClass[1],
     }
 
     this.Job = objFromClass;
